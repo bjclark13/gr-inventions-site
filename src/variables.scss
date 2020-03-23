@@ -1,0 +1,10 @@
+$light_blue: #F3F2EE;
+$white: #dad9d6;
+$black: #333;
+$box_size: 40px;
+
+@mixin border() {
+    border: 2px solid $black;
+    margin: $box_size;
+    box-sizing: border-box;
+}

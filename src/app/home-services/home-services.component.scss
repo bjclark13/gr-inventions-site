@@ -1,0 +1,21 @@
+@import '../../variables.scss';
+
+.app {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.services {
+    flex: 1;
+    margin-top: 1rem;
+    flex-basis: 50%;;
+    i {
+        color: $white;
+        font-size: $box_size;
+    }
+    p {
+        max-width: 450px;
+        text-align: center;
+        margin: 1rem auto;
+    }
+}

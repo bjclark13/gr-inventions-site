@@ -1,0 +1,13 @@
+@import '../../variables.scss';
+
+app-service {
+    flex-basis: 50%;
+    width: 50%;
+}
+.services {
+    flex: 1;
+    i {
+        color: $white;
+        font-size: $box_size;
+    }
+}

@@ -1,0 +1,22 @@
+<div class="paper">
+    <h2>No Out-Of-The-Box Solutions Here</h2>
+    <p> We specialize in custom tools, websites, applications that make your business run. </p>
+    <p>Your business is one-of-a-kind, the software backing it should be too. </p>
+
+    <div class="flex app">
+        <div class="services" *ngFor="let service of services">
+            <i class="fas fa-{{service.icon}}"></i>
+            <h3>{{service.title}}</h3>
+            <p>
+                {{service.text}}
+            </p>
+        </div>
+    </div>
+
+    <p>
+        <!-- Interested? -->
+
+        <a class="button" href="mailto:info@grandinventions.com?Subject=Let's Build Something Great">Let's Do This
+            Thing</a>
+    </p>
+</div>
